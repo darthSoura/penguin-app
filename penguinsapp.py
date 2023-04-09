@@ -13,9 +13,9 @@ Data obtained from the [palmerpenguins library](https://github.com/allisonhorst/
 """)
 
 st.sidebar.header('User Input Features')
-# st.sidebar.markdown("""
-# [Example CSV input file](https://raw.githubusercontent.com/darthSoura/penguin-app/main/penguins_example.csv)
-# """)
+st.sidebar.markdown("""
+[Example CSV input file](https://raw.githubusercontent.com/darthSoura/penguin-app/main/penguins_example.csv)
+""")
 
 uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type = ["csv"])
 if uploaded_file is not None:
