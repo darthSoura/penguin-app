@@ -9,12 +9,12 @@ st.write("""
 
 This app predicts the **Palmer Penguin** species!
 
-Data obtained from the [palmerpenguins library](https://github.com/sllisonhorst/palmerpenguins) in R by Allison Horst.         
+Data obtained from the [palmerpenguins library](https://github.com/allisonhorst/palmerpenguins) in R by Allison Horst.         
 """)
 
 st.sidebar.header('User Input Features')
 st.sidebar.markdown("""
-[Example CSV input file](https://raw.githubusercontent.com/dataprofessor/data/master/penguins_example.csv)
+[Example CSV input file](https://raw.githubusercontent.com/darthSoura/penguin-app/main/penguins_example.csv)
 """)
 
 uploaded_file = st.sidebar.file_uploader("Upload your input CSV file", type = ["csv"])
